@@ -16,6 +16,6 @@ function agregarAmigo() {
     //Actulizar el array
     amigos.push(nombreAmigo);
     //Limpiar campo
-    document.getElementById('nombreAmigo').value='';
+    document.getElementById('amigo').value='';
 }
-document.getElementById('button-add').addEventListener('click',agregarAmigo);
+    document.getElementById('button-add').addEventListener('click',agregarAmigo);
